@@ -76,7 +76,7 @@ These visual metrics helped us evaluate whether the cleaned data behaved as expe
 
 ### Comparison on the validation test 
 
-To understand how well each model performs, we compared all three on the same validation set. For each model, we computed the Mean Absolute Error (MAE), which measures how far the predictions deviate from the true next-season efficiency. We summarized the results in a comparison table and visualized them using a bar plot. This makes it easy to see which model performs best in practice. The model with the lowest MAE is selected as the “winner” on the validation set. Identifying the strongest model at this stage is essential, as it determines which model we trust most before moving on to the final evaluation. Additionally, we provided detailed visual diagnostics for the KNN model to illustrate how well it predicts individual values and whether its errors follow a consistent trend
+To understand how well each model performs, we compared all three on the same validation set. For each model, we computed the Mean Absolute Error (MAE), which measures how far the predictions deviate from the true next-season efficiency. We summarized the results in a comparison table and visualized them using a bar plot. This makes it easy to see which model performs best in practice. The model with the lowest MAE is selected as the “winner” on the validation set. Identifying the strongest model at this stage is essential, as it determines which model we trust most before moving on to the final evaluation. Additionally, we provided detailed visual diagnostics for the KNN model to illustrate how well it predicts individual values and whether its errors follow a consistent trend.
 
 # SECTION 4
 
@@ -87,7 +87,7 @@ To understand how well each model performs, we compared all three on the same va
 ### Final test evaluation
 
 After determining the best-performing model on the validation set, we used that model to generate predictions on the final test set (2000–2005), which contains completely unseen seasons. The idea here is to simulate a real-world scenario: if we had built our model before 2000, how well would it predict player development in the upcoming seasons? 
-We evaluated the selected model on this test set using MAE once again. This final number represents the true out-of-sample performance and gives the most realistic picture of the model’s predictive ability. Ultimately, this step tells us whether the model that performed best on validation data can still maintain its accuracy when applied to completely new players and seasons
+We evaluated the selected model on this test set using MAE once again. This final number represents the true out-of-sample performance and gives the most realistic picture of the model’s predictive ability. Ultimately, this step tells us whether the model that performed best on validation data can still maintain its accuracy when applied to completely new players and seasons.
 
 # SECTION 5
 
