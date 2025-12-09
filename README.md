@@ -86,7 +86,8 @@ To understand how well each model performs, we compared all three on the same va
 
 ### Final test evaluation
 
- 	After determining the best-performing model on the validation set, we used that model to generate predictions on the final test set (2000–2005), which contains completely unseen seasons. The idea here is to simulate a real-world scenario: if we had built our model before 2000, how well would it predict player development in the upcoming seasons? We evaluated the selected model on this test set using MAE once again. This final number represents the true out-of-sample performance and gives the most realistic picture of the model’s predictive ability. Ultimately, this step tells us whether the model that performed best on validation data can still maintain its accuracy when applied to completely new players and seasons.
+After determining the best-performing model on the validation set, we used that model to generate predictions on the final test set (2000–2005), which contains completely unseen seasons. The idea here is to simulate a real-world scenario: if we had built our model before 2000, how well would it predict player development in the upcoming seasons? 
+We evaluated the selected model on this test set using MAE once again. This final number represents the true out-of-sample performance and gives the most realistic picture of the model’s predictive ability. Ultimately, this step tells us whether the model that performed best on validation data can still maintain its accuracy when applied to completely new players and seasons
 
 # SECTION 5
 
