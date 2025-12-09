@@ -11,6 +11,7 @@
 ## INTRODUCTION
 
 In this project, we investigate how NBA players develop over time and how their roles evolve within different team contexts. Although the basketball dataset contains multiple tables with player and team statistics, our analysis focuses specifically on the player_regular_season table, as it provides the most detailed and consistent season performance indicators. This table includes key metrics such as scoring efficiency, assist ratios, defensive contributions and playing time, allowing us to examine how individual performance evolves across multiple seasons.  
+
 Rather than building a predictive model or classifying players, our goal is to design a comprehensive analytical framework that captures performance patterns, identifies anomalies and traces progression trajectories throughout a player’s season. By analyzing how these indicators change over time and how they relate to player responsibilities on the court, we aim to generate interpretable insights that are meaningful for coaches, analysts and scouts. Ultimately, our findings are intended to support data-informed decisions in player development, role assignment and long-term team-building strategies.
 
 # SECTION 2
