@@ -46,7 +46,7 @@ These steps ensured that the dataset was coherent and ready for further analysis
 ## Environment
 
 Regarding the environment, we used a version of Python3 and we worked on colab.  
-The libraries that we used are: sqlite3, pandas, missingno, seaborn, matplotlib.pyplot. 
+The libraries that we used are: sqlite3, pandas, missingno, seaborn, matplotlib.pyplot, sklearn.ensemble, sklearn.metrics, sklearn.model_selection, sklearn.linear_model, sklearn.preprocessing, sklearn,neighbors.
 
 ### KNN part
 
